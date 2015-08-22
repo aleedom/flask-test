@@ -22,7 +22,7 @@ RUN apt-get install -y tar git curl nano wget dialog net-tools build-essential
 RUN apt-get  install -y python python-dev python-distribute python-pip
 
 # Copy the application folder inside the container
-ADD /app  /flask-test
+ADD /flask-test  /flask-test
 
 # Get pip to download and install requirements:
 RUN pip install -r /flask-test/requirements.txt
