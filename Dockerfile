@@ -31,7 +31,7 @@ RUN pip install -r /flask-test/requirements.txt
 EXPOSE 80
 
 # Set the default directory where CMD will execute
-WORKDIR /app
+WORKDIR /flask-test
 
 # Set the default command to execute
 # when creating a new container
